@@ -4,17 +4,16 @@
   "sideEffects": false,
   "version": "2026.1.0",
   "type": "module",
+
   "scripts": {
-    "build": "shopify hydrogen build --codegen",
-    "dev": "shopify hydrogen dev --codegen",
-    "preview": "shopify hydrogen preview --build",
-    "lint": "eslint --no-error-on-unmatched-pattern .",
-    "codegen": "shopify hydrogen codegen && react-router typegen"
-  },
+  "build": "vite build",
+  "dev": "vite"
+},
   "prettier": "@shopify/prettier-config",
   "dependencies": {
     "@shopify/hydrogen": "2026.1.0",
-    "graphql": "^16.10.0",
+    "graphql": "^16.10.0",git add .
+
     "graphql-tag": "^2.12.6",
     "isbot": "^5.1.22",
     "react": "18.3.1",
